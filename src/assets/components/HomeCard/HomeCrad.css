@@ -1,0 +1,27 @@
+.offcard{
+    cursor: pointer;
+    transition: 0.3s;
+   box-shadow: 0 6px 10px rgba(0,0,0,0.20);
+   max-height: 450px;
+   
+}
+.offcard img{
+  max-height: 300px;
+  max-width: 100%;
+}
+.offcard p{
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 10px;
+
+}
+
+.offcard:hover{
+    transform: translateY(-5px);
+} 
+.font-adj{
+    margin-right: 40px;
+   
+}
+

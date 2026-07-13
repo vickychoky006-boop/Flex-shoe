@@ -1,0 +1,174 @@
+.body-con{
+
+  background:  linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  border-radius: 10px;
+}
+
+.hero-card{
+  background: linear-gradient(to right, #ffffff, #ffefba);
+  border-radius:25px;
+  padding:30px;
+  height:320px;
+}
+
+.hero-content{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  gap: 20px;
+  
+}
+
+.arrival{
+  color:#c77742;
+  font-weight:700;
+}
+
+.hero-card h1{
+  font-size:40px;
+  font-weight:800;
+  margin:10px 0;
+}
+
+.hero-card p{
+  color:#666;
+  max-width:350px;
+}
+
+.hero-img{
+   flex-shrink:0;
+    width:100%;
+    max-width:280px;
+    height:auto;
+    object-fit:contain;
+}
+
+.dark-btn{
+  background:black;
+  color:white;
+  border:none;
+  padding:12px 30px;
+  border-radius:30px;
+  margin-top:15px;
+}
+
+.offer-card{
+  background:#f59b63;
+  border-radius:25px;
+  padding:30px;
+  height:320px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.offer-card h2{
+  color:rgb(250, 250, 248);
+  font-weight:800;
+  line-height:1.3;
+}
+
+.offer-card p{
+  color:rgb(247, 244, 244);
+  margin:20px 0;
+}
+
+.light-btn{
+  background:white;
+  border:none;
+  padding:12px 25px;
+  border-radius:30px;
+  width:max-content;
+}
+
+.menproduct-section{
+  background:#ffefba;
+  border-radius:25px;
+  padding:25px;
+}
+
+.heading-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.timer{
+  background:#ff7a2f;
+  color:white;
+  padding:8px 15px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+.menproducts-row{
+  display:flex;
+  gap:20px;
+  overflow-x:auto;
+  scrollbar-width:none;
+}
+
+.menproducts-row::-webkit-scrollbar{
+  display:none;
+}
+
+.menproduct-card{
+  min-width:200px;
+  background:rgb(255, 255, 255);
+  border:1px solid #ffffff;
+  border-radius:22px;
+  padding:15px;
+  position:relative;
+}
+
+.heart{
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size:22px;
+}
+
+.menproduct-img{
+  width:100%;
+  height:70%;
+  object-fit:contain;
+}
+
+.menproduct-card h5{
+  margin-top:10px;
+  font-size:16px;
+}
+
+.menproduct-card small{
+  color:#777;
+}
+
+.menproduct-card h4{
+  margin-top:10px;
+  font-weight:700;
+}
+
+
+@media (max-width:768px){
+
+.hero-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-left{
+    width:100%;
+}
+
+.hero-img{
+    max-width:220px;
+    margin-top:15px;
+}
+
+.hero-card h1{
+    font-size:32px;
+}
+
+}

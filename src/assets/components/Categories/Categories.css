@@ -1,0 +1,17 @@
+.catecard img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.catecard button{
+    border-radius: 30px;
+}
+.categories-header{
+   margin-bottom:30px;
+}
+.categories-fs{
+    font-size: 25px;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,137 @@
+.product-title{
+  font-size:42px;
+  font-weight:700;
+}
+
+.price-section{
+  display:flex;
+  gap:15px;
+  align-items:center;
+  margin:15px 0;
+}
+
+.mrp{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.sale-price{
+  font-size:30px;
+  font-weight:700;
+}
+
+/* .discount{
+  background:rgb(91, 202, 69);
+  color:white;
+  padding:4px 10px;
+} */
+
+.size-container{
+  display:flex;
+  gap:12px;
+  margin:20px 0;
+}
+
+.size-btn{
+  width:60px;
+  height:60px;
+  border:1px solid #ddd;
+  background:white;
+}
+
+.size-btn.active{
+  background:black;
+  color:white;
+}
+
+.pincode-input{
+  flex:1;
+  padding:15px;
+  border:1px solid #ddd;
+}
+
+.check-btn{
+  width:120px;
+  border:none;
+  background:black;
+  color:white;
+}
+
+.cart-btn{
+  width:100%;
+  padding:18px;
+  margin-top:30px;
+  background:black;
+  color:white;
+  border:none;
+  font-size:18px;
+  font-weight:600;
+}
+.thumb-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.thumb-img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border:1px solid #ddd;
+    cursor:pointer;
+}
+
+.main-image-box{
+    background:#f5f5f5;
+    padding:30px;
+}
+
+.main-image{
+    width:100%;
+    object-fit:contain;
+}
+
+.color{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    display:block;
+    border:2px solid #ddd;
+    cursor:pointer;
+}
+
+.black{
+    background:black;
+}
+
+.brown{
+    background:brown;
+}
+
+.size-btn{
+    width:55px;
+    height:55px;
+    border:1px solid #ddd;
+    background:white;
+}
+
+.size-btn.active{
+    border:2px solid black;
+}
+
+.cart-btn{
+    width:100%;
+    padding:15px;
+    background:black;
+    color:white;
+    border:none;
+    margin:20px 0;
+}
+.size-btn.active{
+  background: #000;
+  color: #fff;
+  
+}
+.text-decoration{
+  text-decoration: none;
+}
